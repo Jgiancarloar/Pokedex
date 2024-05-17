@@ -4,7 +4,7 @@ const Evolutions = ({ evolutions }) => {
     const { showPokemon } = usePokemonContext();
 
     return (
-        <div className="flex justify-center items-center gap-2 flex-wrap">
+        <div className="bg-yellow-200 flex justify-center items-center gap-1">
             {
                 evolutions.map((evolution, index) => (
                     <article key={evolution.name} className="flex gap-2 items-center">
